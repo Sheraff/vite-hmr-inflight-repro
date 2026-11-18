@@ -1,0 +1,12 @@
+{
+  "name": "vite-hmr-inflight-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "control": "node repro.mjs --control"
+  },
+  "dependencies": {
+    "vite": "8.3.8"
+  }
+}
